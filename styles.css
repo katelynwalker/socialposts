@@ -1,0 +1,91 @@
+/* font-family: 'Homemade Apple', cursive;
+font-family: 'Dosis', sans-serif; */
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color:#f3f1f7;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+
+}
+.my-thoughts{
+    font-family: 'Homemade Apple', cursive;
+    color:rgb(3, 169, 244);  
+    text-align:center;
+ 
+
+}
+
+#formy{
+    background-color:#B1DDEA;
+    width:50%;
+    padding:25px;
+    border-radius:5px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction:column; 
+    margin:0 auto;
+   
+
+}
+#formy input{
+    width:90%;
+    border-radius:5px;
+    height:20px;
+    border:solid 1px black;
+    justify-content:center;
+}
+#formy button{
+    width:91%;
+    height:20px;
+    border:solid 1px black;
+    border-radius:5px;
+    margin-top:15px;
+
+}
+form #thoughtbox{
+    height:200px;
+}
+#main{
+    /* width:90%; */
+    border-bottom:solid 1px lightgrey;
+    border-top:solid 1px lightgrey;
+    background-color:white;
+    margin-left:100px;
+    margin-right:100px;
+
+    
+  
+}
+#main button{
+    float:right;
+}
+
+#box{
+    width:900px;
+    background-color:white;
+    border:solid 1px black;
+    border-radius:5px;
+
+    
+}
+#addPostBtn{
+    background-color:white;
+    color:black;
+    width:900px;
+    height:40px;
+    border-radius:10px;
+    margin-bottom:30px;
+   
+    
+}
+#postTitle{
+    font-size:24px;
+}
+#x{
+    background-color:none;
+    border:none;
+
+}
